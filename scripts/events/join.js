@@ -104,7 +104,7 @@ https://www.facebook.com/majedulislammahin777?mibextid=ZbWKwL
         let pathImg = __dirname + `/Nayan/join/${o}.png`;
         let pathAva = __dirname + `/Nayan/join/avt.png`;
         let avtAnime = (await axios.get(encodeURI(
-          `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
+          `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=100067003276012%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
           'https://i.imgur.com/dDSh0wc.jpeg',
           'https://i.imgur.com/UucSRWJ.jpeg',
